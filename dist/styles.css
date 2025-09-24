@@ -229,6 +229,11 @@ body {
     color: white;
 }
 
+.benefits-cta {
+    text-align: center;
+    margin-top: 60px;
+}
+
 
 /* How It Works Section */
 .how-it-works {

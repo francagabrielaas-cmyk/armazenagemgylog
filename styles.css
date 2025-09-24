@@ -229,6 +229,11 @@ body {
     color: white;
 }
 
+.benefits-cta {
+    text-align: center;
+    margin-top: 60px;
+}
+
 
 /* How It Works Section */
 .how-it-works {
@@ -355,6 +360,13 @@ body {
 }
 
 
+.certifications {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contact-details h4,
 .certifications h4 {
     font-size: 1.4rem;
@@ -373,19 +385,22 @@ body {
 .cert-logos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+    gap: 10px;
+    justify-items: center;
 }
 
 .cert-logo {
-    height: 90px;
-    width: auto;
+    height: 110px;
+    width: 110px;
     object-fit: contain;
     background: rgba(255, 255, 255, 0.1);
     padding: 25px;
     border-radius: 16px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255, 255, 255, 0.2);
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     transition: all 0.3s ease;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
@@ -540,12 +555,17 @@ body {
     
     .cert-logos {
         grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
+        gap: 8px;
+        justify-items: center;
     }
     
     .cert-logo {
-        height: 80px;
-        padding: 20px;
+        height: 100px;
+        width: 100px;
+        padding: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -603,9 +623,18 @@ body {
         font-size: 24px;
     }
     
+    .cert-logos {
+        gap: 6px;
+        justify-items: center;
+    }
+    
     .cert-logo {
-        height: 70px;
-        padding: 15px;
+        height: 90px;
+        width: 90px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .footer-logo {
