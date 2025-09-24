@@ -373,7 +373,7 @@ body {
 .cert-logos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+    gap: 15px;
 }
 
 .cert-logo {
@@ -540,7 +540,7 @@ body {
     
     .cert-logos {
         grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
+        gap: 12px;
     }
     
     .cert-logo {
@@ -602,6 +602,10 @@ body {
     
     .whatsapp-btn i {
         font-size: 24px;
+    }
+    
+    .cert-logos {
+        gap: 8px;
     }
     
     .cert-logo {
