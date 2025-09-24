@@ -355,6 +355,13 @@ body {
 }
 
 
+.certifications {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contact-details h4,
 .certifications h4 {
     font-size: 1.4rem;
