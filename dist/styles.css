@@ -373,15 +373,16 @@ body {
 .cert-logos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 10px;
+    justify-items: center;
 }
 
 .cert-logo {
-    height: 90px;
-    width: 90px;
+    height: 110px;
+    width: 110px;
     object-fit: contain;
     background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
+    padding: 25px;
     border-radius: 16px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255, 255, 255, 0.2);
@@ -540,13 +541,14 @@ body {
     
     .cert-logos {
         grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
+        gap: 8px;
+        justify-items: center;
     }
     
     .cert-logo {
-        height: 80px;
-        width: 80px;
-        padding: 18px;
+        height: 100px;
+        width: 100px;
+        padding: 22px;
     }
 }
 
@@ -605,13 +607,14 @@ body {
     }
     
     .cert-logos {
-        gap: 8px;
+        gap: 6px;
+        justify-items: center;
     }
     
     .cert-logo {
-        height: 70px;
-        width: 70px;
-        padding: 15px;
+        height: 90px;
+        width: 90px;
+        padding: 20px;
     }
     
     .footer-logo {
