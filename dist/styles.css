@@ -344,8 +344,8 @@ body {
 
 .contact-info {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 60px;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
     align-items: start;
     background: rgba(26, 35, 50, 0.3);
     padding: 50px 40px;
@@ -354,15 +354,6 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.logo-footer {
-    display: flex;
-    align-items: center;
-}
-
-.logo-footer-img {
-    height: 40px;
-    width: auto;
-}
 
 .contact-details h4,
 .certifications h4 {
