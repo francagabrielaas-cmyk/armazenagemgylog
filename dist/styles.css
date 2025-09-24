@@ -378,10 +378,10 @@ body {
 
 .cert-logo {
     height: 90px;
-    width: auto;
+    width: 90px;
     object-fit: contain;
     background: rgba(255, 255, 255, 0.1);
-    padding: 25px;
+    padding: 20px;
     border-radius: 16px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255, 255, 255, 0.2);
@@ -545,7 +545,8 @@ body {
     
     .cert-logo {
         height: 80px;
-        padding: 20px;
+        width: 80px;
+        padding: 18px;
     }
 }
 
@@ -605,6 +606,7 @@ body {
     
     .cert-logo {
         height: 70px;
+        width: 70px;
         padding: 15px;
     }
     
